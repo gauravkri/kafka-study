@@ -21,15 +21,8 @@ public class SendNotificationAspect {
     @Around("@annotation(SendNotification)")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
 
-        long initTime = System.currentTimeMillis();
+
         Object proceed = joinPoint.proceed();
-        long executionTime = System.currentTimeMillis() - initTime;
-        System.out.println("============================================================================================================");
-        System.out.println("Method Signature is : "+joinPoint.getSignature());
-        System.out.println("Method Signature is : "+resolveEvent(joinPoint));
-        System.out.println("Method executed in : " + executionTime + "ms");
-//        System.out.println("Input Request: " + joinPoint.getArgs()[0]);
-        System.out.println("Output Response : " + proceed);
 
         NotificationProduceDto notificationProduceDto = NotificationProduceDto.builder().build();
 
