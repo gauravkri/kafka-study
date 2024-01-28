@@ -1,6 +1,7 @@
 package com.grv.kafkabinderexample.rest;
 
 import com.grv.kafkabinderexample.KafkaProducer;
+import com.grv.kafkabinderexample.customanotation.SendNotification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,4 +21,16 @@ public class TestController {
         kafkaProducer.sendMessage(value);
         return value;
     }
+
+
+    @SendNotification(eventName = "customerCreate")
+    @GetMapping("customer/save")
+    public String createCustomer(){
+
+        return  "Done";
+    }
+
+
+
+
 }
