@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/../kafka-example/kafka-example/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-example/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-binder-example/pom.xml" />
+        <option value="$PROJECT_DIR$/custom-anotation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

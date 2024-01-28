@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    function:
+      definition: consumer;producer
+    stream:
+      bindings:
+        producer-out-0:
+          destination: my-topic
+        consumer-in-0:
+          destination: my-topic
+        binder:
+          brokers: localhost:9092
