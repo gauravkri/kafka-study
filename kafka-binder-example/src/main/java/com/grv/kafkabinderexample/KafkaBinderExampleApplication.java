@@ -18,10 +18,10 @@ public class KafkaBinderExampleApplication {
 	}
 
 
-	@Bean
-	public Consumer<String> consumer() {
-		return message -> System.out.println("received " + message);
-	}
+//	@Bean
+//	public Consumer<String> consumer() {
+//		return message -> System.out.println("received " + message);
+//	}
 
 //	@Bean
 //	public Supplier<String> producer() {

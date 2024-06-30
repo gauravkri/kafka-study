@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="custom-anotation" />
         <module name="kafka-binder-example" />
+        <module name="kafka-producer-binder-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="custom-anotation" options="-parameters" />
       <module name="kafka-binder-example" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
+      <module name="kafka-producer-binder-example" options="-parameters" />
     </option>
   </component>
 </project>
