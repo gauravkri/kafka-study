@@ -7,13 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="custom-anotation" />
         <module name="kafka-binder-example" />
         <module name="kafka-producer-binder-example" />
+        <module name="custom-anotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kafka-example" target="17" />
+      <module name="kafka-producer-example" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +23,7 @@
       <module name="kafka-binder-example" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
       <module name="kafka-producer-binder-example" options="-parameters" />
+      <module name="kafka-producer-example" options="-parameters" />
     </option>
   </component>
 </project>

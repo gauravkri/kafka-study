@@ -1,4 +1,4 @@
-package com.grv.kafka_producer_example;
+package com.grv.kafka_producer_binder_example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

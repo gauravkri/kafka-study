@@ -1,4 +1,4 @@
-package com.grv.kafka_producer_example.producer;
+package com.grv.kafka_producer_binder_example.producer;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
