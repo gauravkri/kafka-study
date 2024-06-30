@@ -9,12 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="kafka-binder-example" />
         <module name="kafka-producer-binder-example" />
+        <module name="kafka-producer-example" />
         <module name="custom-anotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kafka-example" target="17" />
-      <module name="kafka-producer-example" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

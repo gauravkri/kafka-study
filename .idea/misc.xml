@@ -15,7 +15,6 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/../kafka-example/kafka-example/pom.xml" />
-        <option value="$PROJECT_DIR$/kafka-producer-example/pom.xml" />
       </set>
     </option>
   </component>
